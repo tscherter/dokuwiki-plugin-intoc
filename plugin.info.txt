@@ -3,5 +3,5 @@ author Vincent Tscherter
 email  vincent@tscherter.net
 date   2023-09-29
 name   intoc plugin
-desc   Moves a collapsible headless TOC of a page where you need it
+desc   Moves a collapsible TOC of a page where you need it
 url    https://www.dokuwiki.org/plugin:intoc

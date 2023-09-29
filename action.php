@@ -37,11 +37,6 @@ class action_plugin_intoc extends DokuWiki_Action_Plugin {
         global $TOC;
         global $lang;
         if ($TOC) {
-            // remove head (as in wikipedia)
-            array_shift($TOC);
-            foreach($TOC as $key => $value) {
-                $TOC[$key]['level']--;
-            }
             $html = '<details open class="intoc"><summary>'.$lang['toc'].'</summary>'
                 . html_buildlist($TOC, 'intoc', array($this, 'html_list_intoc'))
                 . '</details>';
