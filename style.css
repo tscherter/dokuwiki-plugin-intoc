@@ -1,17 +1,17 @@
 details.intoc {
     border-color: __border__;
-    border-style: dashed;
+    border-style: solid;
     border-width: thin;
     padding-top: 10px;
     padding-left: 10px;
     padding-bottom: 0;
-    margin-bottom: 1em;
+    margin-bottom: 1.6em;
     border-radius : 10px;
     _background-color: __background_alt__;
 }
 
 details.intoc summary {
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 details.intoc ul {
@@ -23,5 +23,4 @@ details.intoc ul {
 
 details.intoc ul.intoc li {
     padding-left: 0.2em;
-    
 }
