@@ -1,0 +1,27 @@
+details.intoc {
+    border-color: __border__;
+    border-style: dashed;
+    border-width: thin;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 0;
+    margin-bottom: 1em;
+    border-radius : 10px;
+    _background-color: __background_alt__;
+}
+
+details.intoc summary {
+    font-weight: bolder;
+}
+
+details.intoc ul {
+	line-height: 1.5em;
+    padding: 0;
+    margin: 0.5ex 0;
+    _margin-left: 2em;
+}
+
+details.intoc ul.intoc li {
+    padding-left: 0.2em;
+    
+}
